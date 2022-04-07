@@ -24,4 +24,9 @@ document.onmousemove = function (event) {
 	}
 };
 let userName = prompt("Представьтесь пожалуйста", "аноним");
-alert("Рад вас видеть, "+ userName + ", ставьте 5");
+if (userName == null){
+	alert("Ну и ладно");
+}
+else{
+alert("Рад вас видеть, "+ userName + ", поставьте 5");
+}
