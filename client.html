@@ -1,92 +1,108 @@
 ﻿<!DOCTYPE HTML>
-<html>git
-	<head>
-		<meta charset = "windows-1251">
-		<title>Справочник клиентов</title>
-		<link rel="stylesheet" href="system/style.css">
-		<style type = "text/css">
+<html>
 
-body {
-    background: radial-gradient(#7f707020, rgb(104, 104, 104));   
-   }
+<head>
+	<meta charset="windows-1251">
+	<title>Справочник клиентов</title>
+	<link rel="stylesheet" href="system/style.css">
+	<style type="text/css">
+		body {
+			background: radial-gradient(#7f707020, rgb(104, 104, 104));
+		}
+		a:hover{
+			background-color:#7c7c7c;
+		}
+		.table_center1 {
+			margin: auto;
+		}
 
-			.table_center1{
-				margin:auto;
-			}
-			.table_center2{
-				margin:auto;
-			}
-			table {
-			background: white;	
-			border: 2px solid;
-				}
-			th:hover { background-color: #808080; }
-			th {
+		.table_center2 {
+			margin: auto;
+		}
+
+		table {
 			background: white;
 			border: 2px solid;
-				}
-			td {
+		}
+
+		th:hover {
+			background-color: #808080;
+		}
+
+		th {
 			background: white;
-			border:	2px solid;
-				}
-		</style>
-	</head>
-	<body>
-		<h1><center>Справочник клиентов</center></h1>
+			border: 2px solid;
+		}
 
-	
+		td {
+			background: white;
+			border: 2px solid;
+		}
+	</style>
+</head>
 
-		<table class="table_center1">
-			<tr>
-				<th>
-		<form method ="POST" action="">
-			<p><input name ="name" type="text" placeholder="Имя клиента"/></p>
-			<p><input name ="val1" type="text" placeholder="Email"/></p>
-			<p><input name ="val2" type="text" placeholder="Бонусы"/></p>
-			<p><input name ="val3" type="text" placeholder="Номер телефона"/></p>
-			<p><input name ="val4" type="text" placeholder="Город"/></p>
-			<p><input name ="val5" type="text" placeholder="Страна,Город,Район,Улица, дом, квартира"/></p>
-			<p><input name ="val6" type="text" placeholder="Пол"/></p>
-			<p><input name ="val7" type="text" placeholder="Дата рождения"/></p>
-			<p><input type ="submit" value = "Сохранить"/></p>
-		</form>
-				</th>
-			</tr>
-		</table>
-		<table class="table_center2">
-			<tr>
-				<th bgcolor ="#00BFFF">Имя клиента</th>
-				<th bgcolor ="#00BFFF">Email</th>
-				<th bgcolor ="#00BFFF">Бонусы</th>
-				<th bgcolor ="#00BFFF">Номер телефона</th>
-				<th bgcolor ="#00BFFF">Город</th>
-				<th bgcolor ="#00BFFF">Полный адрес проживания</th>
-				<th bgcolor ="#00BFFF">Пол</th>
-				<th bgcolor ="#00BFFF">Дата рождения</th>
-			</tr>
-			<tr>
-				<td>Саня</td>
-				<td>m.sasha.aa@mail.ru</td>
-				<td>999999</td>
-				<td>+79621571089</td>
-				<td>Стокгольм</td>
-				<td>Швеция,Стокгольм,Херсеруд,Рингваген д46</td>
-				<td>Женский</td>
-				<td>09.01.2002</td>		
-			</tr>
-		</table>
-		<center><p><b><font size="15" color="#4731d6c0" face="MV BOLI">Petrosyan</font></b></p></center>
-		<div class ="eye1">
-			<div class="cornea1"></div>
-			<div class = "pupil1"></div>
-		</div>
-		<div class ="eye2">
-			<div class="cornea2"></div>
-			<div class = "pupil2"></div>
-		</div>
+<body>
+	<h1>
+		<center>Справочник клиентов</center>
+	</h1>
 
-		<p><img src="system/IoHzS.gif" alt="Здесь должен быть танцующий кот" height="200" width="200" align=right></p>
+	<table class="table_center1">
+		<tr>
+			<th>
+				<form method="POST" action="">
+					<p><input name="name" type="text" placeholder="Имя клиента" /></p>
+					<p><input name="val1" type="text" placeholder="Email" /></p>
+					<p><input name="val2" type="text" placeholder="Бонусы" /></p>
+					<p><input name="val3" type="text" placeholder="Номер телефона" /></p>
+					<p><input name="val4" type="text" placeholder="Город" /></p>
+					<p><input name="val5" type="text" placeholder="Страна,Город,Район,Улица, дом, квартира" /></p>
+					<p><input name="val6" type="text" placeholder="Пол" /></p>
+					<p><input name="val7" type="text" placeholder="Дата рождения" /></p>
+					<p><input type="submit" value="Сохранить" /></p>
+				</form>
+			</th>
+		</tr>
+	</table>
+	<table class="table_center2">
+		<tr>
+			<th bgcolor="#00BFFF">Имя клиента</th>
+			<th bgcolor="#00BFFF">Email</th>
+			<th bgcolor="#00BFFF">Бонусы</th>
+			<th bgcolor="#00BFFF">Номер телефона</th>
+			<th bgcolor="#00BFFF">Город</th>
+			<th bgcolor="#00BFFF">Полный адрес проживания</th>
+			<th bgcolor="#00BFFF">Пол</th>
+			<th bgcolor="#00BFFF">Дата рождения</th>
+		</tr>
+		<tr>
+			<td>Саня</td>
+			<td>m.sasha.aa@mail.ru</td>
+			<td>999999</td>
+			<td>+79621571089</td>
+			<td>Стокгольм</td>
+			<td>Швеция,Стокгольм,Херсеруд,Рингваген д46</td>
+			<td>Женский</td>
+			<td>09.01.2002</td>
+		</tr>
+	</table>
+	<center>
+		<p><b>
+				<font size="15" color="#4731d6c0" face="MV BOLI">Petrosyan</font>
+			</b></p>
+	</center>
+	<div class="eye1">
+		<div class="cornea1"></div>
+		<div class="pupil1"></div>
+	</div>
+	<div class="eye2">
+		<div class="cornea2"></div>
+		<div class="pupil2"></div>
+	</div>
 
-		<script src="system/script.js"></script>
-	</body>
+    <a href="product.html" class="buttons" target="_blank">продукция</a><br><br>
+    <a href="delivery.html" class="buttons" target="_blank">доставка</a><br><br>
+    <a href="provider.html" class="buttons" target="_blank">поставщики</a><br><br>
+    <a href="norder.html" class="buttons" target="_blank">заказ</a>
 
+	<script src="system/script.js"></script>
+</body>

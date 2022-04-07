@@ -60,3 +60,20 @@
 	border-radius: 100%;
 }
 
+.buttons{
+	border-radius: 15px;
+	color:black;
+	float: right;
+	border:1.5px solid black;
+	background:#ffffff;
+	padding: 3px;
+	text-decoration: none;
+}
+
+.button{
+	border-radius: 15px;
+	color:black;
+	float: right;
+	background:#692626;
+	border:1.5px solid black;
+}

@@ -1,81 +1,96 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<meta charset = "UTF-8">
-		<title>Справочник поставщиков</title>
-		<link rel="stylesheet" href="system/style.css">
-		<style type = "text/css">
 
-    body {
-        background: radial-gradient(#7f707020, rgb(106, 121, 129));   
+<head>
+    <meta charset="UTF-8">
+    <title>Справочник поставщиков</title>
+    <link rel="stylesheet" href="system/style.css">
+    <style type="text/css">
+        body {
+            background: radial-gradient(#7f707020, rgb(106, 121, 129));
+        }
+		a:hover{
+			background-color:#6d757e
+        }
+        table {
+            width: auto;
+            margin: 0 auto;
+            background: white;
+            border: 2px solid;
         }
 
-	table {
-    width: auto;
-    margin: 0 auto;
-	background: white;	
-	border: 2px solid;
-	    }
-	th:hover { background-color: #808080; }
-	th {
-    width: auto;
-    padding-bottom: 5px;
-	background: white;
-	border: 2px solid;
-		}
-	td {  
-    width: auto;    
-    padding-bottom: 5px;   
-	background: white;
-	border:	2px solid;
-		}
-		</style>
-	</head>
-	<body>
-		<h1><center>Справочник поставщиков</center></h1>
+        th:hover {
+            background-color: #808080;
+        }
 
-	
-		<table>
-			<tr>
-				<th>
-		<form method ="POST" action="">
-			<p><input name ="name" type="text" placeholder="Имя поставщика"/></p>
-			<p><input name ="val1" type="text" placeholder="Адрес поставщика"/></p>
-			<p><input name ="val2" type="text" placeholder="Город поставщика"/></p>
-			<p><input name ="val3" type="text" placeholder="Тлф.ном. поставщика"/></p>
-			<p><input name ="val4" type="text" placeholder="Факс. ном.поставщика"/></p>
-			<p><input type ="submit" value = "Сохранить"/></p>
-		</form>
-				</th>
-			</tr>
-		</table>
+        th {
+            width: auto;
+            padding-bottom: 5px;
+            background: white;
+            border: 2px solid;
+        }
 
-		<table>
-			<tr>
-				<th bgcolor ="#00BFFF">Имя</th>
-				<th bgcolor ="#00BFFF">Адрес</th>
-				<th bgcolor ="#00BFFF">Город</th>
-				<th bgcolor ="#00BFFF">Тлф.Номер</th>
-				<th bgcolor ="#00BFFF">Факс</th>
-			</tr>
-			<tr align="center">
-				<td>атрибут1</td>
-				<td>атрибут2</td>
-				<td>атрибут3</td>
-				<td>атрибут4</td>
-				<td>атрибут5</td>		
-			</tr>
-		</table>
-		<div class ="eye1">
-			<div class="cornea1"></div>
-			<div class = "pupil1"></div>
-		</div>
-		<div class ="eye2">
-			<div class="cornea2"></div>
-			<div class = "pupil2"></div>
-		</div>
+        td {
+            width: auto;
+            padding-bottom: 5px;
+            background: white;
+            border: 2px solid;
+        }
+    </style>
+</head>
 
-		<script src="system/script.js"></script>
-	</body>
+<body>
+    <h1>
+        <center>Справочник поставщиков</center>
+    </h1>
+
+
+    <table>
+        <tr>
+            <th>
+                <form method="POST" action="">
+                    <p><input name="name" type="text" placeholder="Имя поставщика" /></p>
+                    <p><input name="val1" type="text" placeholder="Адрес поставщика" /></p>
+                    <p><input name="val2" type="text" placeholder="Город поставщика" /></p>
+                    <p><input name="val3" type="text" placeholder="Тлф.ном. поставщика" /></p>
+                    <p><input name="val4" type="text" placeholder="Факс. ном.поставщика" /></p>
+                    <p><input type="submit" value="Сохранить" /></p>
+                </form>
+            </th>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th bgcolor="#00BFFF">Имя</th>
+            <th bgcolor="#00BFFF">Адрес</th>
+            <th bgcolor="#00BFFF">Город</th>
+            <th bgcolor="#00BFFF">Тлф.Номер</th>
+            <th bgcolor="#00BFFF">Факс</th>
+        </tr>
+        <tr align="center">
+            <td>атрибут1</td>
+            <td>атрибут2</td>
+            <td>атрибут3</td>
+            <td>атрибут4</td>
+            <td>атрибут5</td>
+        </tr>
+    </table>
+    <div class="eye1">
+        <div class="cornea1"></div>
+        <div class="pupil1"></div>
+    </div>
+    <div class="eye2">
+        <div class="cornea2"></div>
+        <div class="pupil2"></div>
+    </div>
+
+    <a href="product.html" class="buttons" target="_blank">продукция</a><br><br>
+    <a href="delivery.html" class="buttons" target="_blank">доставка</a><br><br>
+    <a href="norder.html" class="buttons" target="_blank">поставщики</a><br><br>
+    <a href="client.html" class="buttons" target="_blank">клиент</a>
+
+    <script src="system/script.js"></script>
+</body>
 
 </html>
