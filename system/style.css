@@ -1,79 +1,89 @@
 .eye1 {
-	position: relative;
-	width: 100px;
-	height: 100px;
-	border-radius: 100%;
-	background-color: white;
-	border: 2px solid black;
-	float: left;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    border: 2px solid black;
+    float: left;
 }
 
 .cornea1 {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	bottom: 25px;
-	left: 50px;
-	background: radial-gradient(#426bdbd3, rgb(104, 104, 104));
-	border-radius: 100%;
-
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    left: 50px;
+    background: radial-gradient(#426bdbd3, rgb(104, 104, 104));
+    border-radius: 100%;
 }
 
 .pupil1 {
-	width: 20px;
-	height: 20px;
-	bottom: 40px;
-	left: 66.5px;
-	background: black;
-	position: absolute;
-	border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    bottom: 40px;
+    left: 66.5px;
+    background: black;
+    position: absolute;
+    border-radius: 100%;
 }
 
 .eye2 {
-	position: relative;
-	width: 100px;
-	height: 100px;
-	background-color: white;
-	border-radius: 100%;
-	border: 2px solid black;
-	float: left;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100%;
+    border: 2px solid black;
+    float: left;
 }
 
 .cornea2 {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	bottom: 25px;
-	left: 50px;
-	background: radial-gradient(#9bdd4fd3, rgb(92, 92, 92));
-	border-radius: 100%;
-
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    left: 50px;
+    background: radial-gradient(#9bdd4fd3, rgb(92, 92, 92));
+    border-radius: 100%;
 }
 
 .pupil2 {
-	width: 20px;
-	height: 20px;
-	bottom: 40px;
-	left: 66.5px;
-	background: black;
-	position: absolute;
-	border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    bottom: 40px;
+    left: 66.5px;
+    background: black;
+    position: absolute;
+    border-radius: 100%;
 }
 
-.buttons{
-	border-radius: 15px;
-	color:black;
-	float: right;
-	border:1.5px solid black;
-	background:#ffffff;
-	padding: 3px;
-	text-decoration: none;
+.buttons {
+    border-radius: 15px;
+    color: black;
+    float: right;
+    border: 1.5px solid black;
+    background: #ffffff;
+    padding: 3px;
+    text-decoration: none;
 }
 
-.button{
-	border-radius: 15px;
-	color:black;
-	float: right;
-	background:#692626;
-	border:1.5px solid black;
+.button {
+    border-radius: 15px;
+    color: black;
+    float: right;
+    background: #692626;
+    border: 1.5px solid black;
+}
+
+.but_main {
+    border-radius: 15px;
+    background: #ffffff;
+    border: 1.5px solid black;
+    margin: auto;
+}
+
+.but_main:hover {
+    background: rgb(203, 253, 236);
+    font-weight: bolder;
 }
